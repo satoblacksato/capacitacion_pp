@@ -1,0 +1,21 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.swal2-title {
+    position: relative!important;
+    max-width: 100%!important;
+    margin: 0!important;
+    padding: 0!important;
+    color: #595959!important;
+    font-size: 15px!important;
+    font-weight: 700!important;
+    text-align: center!important;
+    text-transform: uppercase!important;
+}
+
+
+.swal2-actions{
+    padding: 0!important;
+    margin: 0!important;
+}
