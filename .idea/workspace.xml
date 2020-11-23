@@ -19,7 +19,31 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83fe1432-0f12-4062-b4ee-2f3a30a2e751" name="Default Changelist" comment="" />
+    <list default="true" id="83fe1432-0f12-4062-b4ee-2f3a30a2e751" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/capacitacion_pp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capacitacion_pp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ComunController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComunController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/BookComponent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/BookComponent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Jobs/SendTotalsAndNewBook.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Jobs/SendTotalsAndNewBook.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/global_custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/global_custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/global_custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/global_custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/es/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/es/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/_partials/_books.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/_partials/_books.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,6 +194,10 @@
       <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
       <path value="$PROJECT_DIR$/vendor/silber/bouncer" />
       <path value="$PROJECT_DIR$/vendor/laravel/telescope" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/sodium_compat" />
+      <path value="$PROJECT_DIR$/vendor/pusher/pusher-php-server" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jvzFV4m9zqYIcmMoel4Fr8i1ba" />
@@ -196,6 +224,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -224,7 +253,9 @@
       <workItem from="1605364651959" duration="1006000" />
       <workItem from="1605564240710" duration="5821000" />
       <workItem from="1605735062412" duration="7344000" />
-      <workItem from="1605804631696" duration="29462000" />
+      <workItem from="1605804631696" duration="54193000" />
+      <workItem from="1606147012116" duration="10672000" />
+      <workItem from="1606165434573" duration="1421000" />
     </task>
     <servers />
   </component>
@@ -248,10 +279,10 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="320" y="87" key="#Deployment/0.23.1440.797@0.23.1440.797" timestamp="1605818211785" />
-    <state x="418" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605911196004">
+    <state x="418" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606086382216">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="418" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.797@0.23.1440.797" timestamp="1605911196004" />
+    <state x="418" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.797@0.23.1440.797" timestamp="1606086382216" />
     <state x="458" y="183" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604960734182">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -260,11 +291,15 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="474" y="341" key="ComposerInitDialogKey/0.23.1440.797@0.23.1440.797" timestamp="1605364983443" />
-    <state x="539" y="360" key="NewPhpFileDialog" timestamp="1605736463717">
+    <state x="481" y="154" key="NewPhpClassDialog" timestamp="1606064394064">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="481" y="154" key="NewPhpClassDialog/0.23.1440.797@0.23.1440.797" timestamp="1606064394064" />
+    <state x="539" y="360" key="NewPhpFileDialog" timestamp="1606059340465">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1604701090691" />
-    <state x="539" y="360" key="NewPhpFileDialog/0.23.1440.797@0.23.1440.797" timestamp="1605736463717" />
+    <state x="539" y="360" key="NewPhpFileDialog/0.23.1440.797@0.23.1440.797" timestamp="1606059340465" />
     <state x="539" y="360" key="NewPhpFileDialog/0.23.1440.798@0.23.1440.798" timestamp="1604702792895" />
     <state x="539" y="361" key="NewPhpFileDialog/0.23.1440.801@0.23.1440.801" timestamp="1604704413571" />
     <state x="556" y="327" width="441" height="188" key="WebDeployment.AddServerDialog.v.1" timestamp="1605818169240">
@@ -279,5 +314,10 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="100" y="123" width="1240" height="597" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.797@0.23.1440.797" timestamp="1605365425990" />
+    <state x="385" y="144" width="670" height="677" key="search.everywhere.popup" timestamp="1606062008736">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1606061212299" />
+    <state x="385" y="144" width="670" height="677" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1606062008736" />
   </component>
 </project>

@@ -63,11 +63,11 @@ class BookComponent extends Component
                 }
             DB::commit();
                 if($this->action=='C'){
-
+                    SendTotalsAndNewBook::dispatch($this->book);
                     $this->loadInfo();
 
                 }
-                SendTotalsAndNewBook::dispatch($this->book);
+
 
                 $this->dispatchBrowserEvent('msgBook',['msg'=>__('admin.book_saved')]);
         }catch (Exception $ex){

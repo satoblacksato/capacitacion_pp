@@ -38,5 +38,6 @@ class SendTotalsAndNewBook implements ShouldQueue
         $bookCount=Book::where('category_id','=',$this->book->category_id)->count();
 
         (User::findOrFail(11))->notify(new SendEmailToAdmin($categoryName,$bookCount));
+        event(new \App\Events\CreatedNewBook($this->book));
     }
 }

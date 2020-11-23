@@ -31,7 +31,8 @@
         <script src="{{asset('js/global_custom.js')}}" defer>
 
         </script>
-
+        @component('_partials._events-realtime')
+        @endcomponent
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">

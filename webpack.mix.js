@@ -20,12 +20,14 @@ mix.js('resources/js/app.js', 'public/js')
 
 
 mix.styles([
-    'resources/css/custom/main.css'
+    'resources/css/custom/main.css',
+    'resources/css/custom/alertify.css'
 ],'public/css/global_custom.css');
 
 mix.scripts([
     'resources/js/custom/jquery.js',
-    'resources/js/custom/sweetalert.js'
+    'resources/js/custom/sweetalert.js',
+    'resources/js/custom/alertify.js'
 ],'public/js/global_custom.js');
 
 

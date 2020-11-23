@@ -21,5 +21,6 @@ return [
     'books_by_category_description'=>'Presenta los libros que hayas creado en base a la categoría',
     'OPCIONES'=>'Opciones',
     'view'=>'Ver',
-    'book_saved'=>'Libro guardado correctamente en la plataforma'
+    'book_saved'=>'Libro guardado correctamente en la plataforma',
+    'author'=>'Subido por :author'
 ];

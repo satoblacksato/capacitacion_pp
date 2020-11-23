@@ -19,4 +19,8 @@ class ComunController extends Controller
             'action'=>'U','book'=>$book,'category'=>$book->category
         ]);
     }
+
+    public function viewBook(Book $book){
+        return view('info-book',compact('book'));
+    }
 }

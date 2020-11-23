@@ -29,3 +29,8 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/create-book/{category}',
 Route::middleware(['auth:sanctum', 'verified'])->get('/edit-book/{book}',
     [\App\Http\Controllers\ComunController::class,'editBook'])
     ->name('edit_book');
+
+Route::get('/view-book/{book}',
+    [\App\Http\Controllers\ComunController::class,'viewBook'])
+    ->name('view_book');
+
