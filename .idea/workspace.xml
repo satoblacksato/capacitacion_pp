@@ -20,29 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83fe1432-0f12-4062-b4ee-2f3a30a2e751" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/capacitacion_pp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capacitacion_pp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ComunController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComunController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/BookComponent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/BookComponent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Jobs/SendTotalsAndNewBook.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Jobs/SendTotalsAndNewBook.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/global_custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/global_custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/global_custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/global_custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/es.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/es/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/es/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/_partials/_books.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/_partials/_books.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +193,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/public/css" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -256,6 +234,7 @@
       <workItem from="1605804631696" duration="54193000" />
       <workItem from="1606147012116" duration="10672000" />
       <workItem from="1606165434573" duration="1421000" />
+      <workItem from="1606167070755" duration="429000" />
     </task>
     <servers />
   </component>
