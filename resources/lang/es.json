@@ -31,5 +31,8 @@
     "click here to request another": "pulsa aquí para que te enviemos otro",
     "All rights reserved.":  "Todos los derechos reservados.",
     "site_title": "Mi biblioteca",
-    "site_description": "Sitio desarrollado en laravel con realtime"
+    "site_description": "Sitio desarrollado en laravel con realtime",
+    "by": "Publicado por ",
+    "publish_on": "Fecha de publicación :date",
+    "continue_reading": "Continuar Leyendo"
 }

@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83fe1432-0f12-4062-b4ee-2f3a30a2e751" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/customVars.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Cache/QueryCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Cache/QueryCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/BookComponent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/BookComponent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,6 +218,15 @@
       <recent name="$PROJECT_DIR$/resources/img" />
     </key>
   </component>
+  <component name="RemoteSynchronizer">
+    <option name="targetMappings">
+      <list>
+        <TargetMappings>
+          <option name="name" value="Default" />
+        </TargetMappings>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -235,6 +252,7 @@
       <workItem from="1606147012116" duration="10672000" />
       <workItem from="1606165434573" duration="1421000" />
       <workItem from="1606167070755" duration="429000" />
+      <workItem from="1606771929716" duration="6410000" />
     </task>
     <servers />
   </component>
@@ -274,13 +292,14 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="481" y="154" key="NewPhpClassDialog/0.23.1440.797@0.23.1440.797" timestamp="1606064394064" />
-    <state x="539" y="360" key="NewPhpFileDialog" timestamp="1606059340465">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="539" y="395" key="NewPhpFileDialog" timestamp="1606778793371">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1604701090691" />
     <state x="539" y="360" key="NewPhpFileDialog/0.23.1440.797@0.23.1440.797" timestamp="1606059340465" />
     <state x="539" y="360" key="NewPhpFileDialog/0.23.1440.798@0.23.1440.798" timestamp="1604702792895" />
     <state x="539" y="361" key="NewPhpFileDialog/0.23.1440.801@0.23.1440.801" timestamp="1604704413571" />
+    <state x="539" y="395" key="NewPhpFileDialog/0.25.1440.875@0.25.1440.875" timestamp="1606778793371" />
     <state x="556" y="327" width="441" height="188" key="WebDeployment.AddServerDialog.v.1" timestamp="1605818169240">
       <screen x="0" y="23" width="1440" height="797" />
     </state>

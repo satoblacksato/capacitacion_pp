@@ -8,7 +8,7 @@ use Livewire\WithFileUploads;
 use DB;
 use Exception;
 use App\Jobs\SendTotalsAndNewBook;
-
+use Cache;
 class BookComponent extends Component
 {
     use WithFileUploads;
@@ -65,7 +65,7 @@ class BookComponent extends Component
                 if($this->action=='C'){
                     SendTotalsAndNewBook::dispatch($this->book);
                     $this->loadInfo();
-
+                    Cache::forget('getLastBooks');
                 }
 
 

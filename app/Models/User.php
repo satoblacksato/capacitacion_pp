@@ -77,7 +77,7 @@ class User extends Authenticatable
 
 
    public function booksCreated(){
-       return $this->hasMany(Book::class,'ceated_user','id');
+       return $this->hasMany(Book::class,'created_user','id');
    }
    public function booksUpdated(){
     return $this->hasMany(Book::class,'updated_user','id');
