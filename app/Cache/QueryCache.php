@@ -7,6 +7,7 @@ namespace App\Cache;
 use App\Models\{Category,Book,User};
 use Cache;
 use DB;
+use Avatar;
 class QueryCache
 {
     public function getCategoriesForRef(){
@@ -48,5 +49,11 @@ class QueryCache
             return User::withCount('booksCreated')->has('booksCreated', '>', 0)->get();
         });
 
+    }
+
+    public function getImageFromUser($user){
+        return Cache::remember('getImageFromUser.'.$user->id, config('customVars.seconds_in_cache'),function () use($user){
+           return Avatar::create($user->name)->toBase64();
+        });
     }
 }

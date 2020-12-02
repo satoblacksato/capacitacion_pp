@@ -23,4 +23,16 @@ class ComunController extends Controller
     public function viewBook(Book $book){
         return view('info-book',compact('book'));
     }
+
+    public function getBooksByCategory(Category $category){
+        if(request()->ajax()){
+            //request()->method()
+            return response()->json(
+                [
+                    'books'=>$category->books()->with('userCreated')->paginate()
+                ]
+            );
+        }
+        return view('blank',compact('category'));
+    }
 }

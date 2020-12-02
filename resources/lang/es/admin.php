@@ -22,5 +22,6 @@ return [
     'OPCIONES'=>'Opciones',
     'view'=>'Ver',
     'book_saved'=>'Libro guardado correctamente en la plataforma',
-    'author'=>'Subido por :author'
+    'author'=>'Subido por :author',
+    'users'=>'Usuarios con libros publicados'
 ];

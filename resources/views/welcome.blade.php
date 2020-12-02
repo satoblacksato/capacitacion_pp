@@ -12,14 +12,12 @@
                     <p href="#" class="text-sm pb-3">
                         {{__('by')}} <a href="#" class="font-semibold hover:text-gray-800">{{$book->userCreated->name}}</a>, {{__('publish_on',['date'=>$book->created_at->toDayDateTimeString()])}}
                     </p>
-                    <a href="#" class="pb-6">
+                    <a href="{{route('view_book',$book)}}" class="pb-6">
                         {{ \Illuminate\Support\Str::substr($book->description,0,100) }}...
                     </a>
-                    <a href="#" class="uppercase text-gray-800 hover:text-black">{{__('continue_reading')}} <i class="fas fa-arrow-right"></i></a>
+                    <a href="{{route('view_book',$book)}}" class="uppercase text-gray-800 hover:text-black">{{__('continue_reading')}} <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
         @endforeach
     @endsection
 </x-master-layout>
-
-{{QData::getUsersWithBook()}}

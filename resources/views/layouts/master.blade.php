@@ -22,6 +22,8 @@
     <!-- Font Awesome -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
 
+    <script src="{{asset('js/app.js')}}" defer></script>
+
     <link rel="stylesheet" href="{{ asset('css/global_custom.css') }}">
     <script src="{{asset('js/global_custom.js')}}" defer></script>
     @component('_partials._events-realtime')
@@ -92,7 +94,7 @@
     <div :class="open ? 'block': 'hidden'" class="w-full flex-grow sm:flex sm:items-center sm:w-auto">
         <div class="w-full container mx-auto flex flex-col sm:flex-row items-center justify-center text-sm font-bold uppercase mt-0 px-6 py-2">
             @foreach($categories as $category)
-                <a href="#" class="hover:bg-gray-400 rounded py-2 px-4 mx-2">{{$category->name}}</a>
+                <a href="{{route('get_books',$category->slug)}}" class="hover:bg-gray-400 rounded py-2 px-4 mx-2">{{$category->name}}</a>
             @endforeach
         </div>
     </div>
@@ -102,7 +104,7 @@
 <div class="container mx-auto flex flex-wrap py-6">
 
     <!-- Posts Section -->
-    <section class="w-full md:w-2/3 flex flex-col items-center px-3">
+    <section class="w-full md:w-2/3 flex flex-col items-center px-3" id="app">
         @yield('content')
     </section>
 
@@ -110,25 +112,20 @@
     <aside class="w-full md:w-1/3 flex flex-col items-center px-3">
 
         <div class="w-full bg-white shadow flex flex-col my-4 p-6">
-            <p class="text-xl font-semibold pb-5">About Us</p>
-            <p class="pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis est eu odio sagittis tristique. Vestibulum ut finibus leo. In hac habitasse platea dictumst.</p>
+            <p class="text-xl font-semibold pb-5">{{__('site_title')}}</p>
+            <p class="pb-2">{{__('site_about')}}</p>
             <a href="#" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4">
                 Get to know us
             </a>
         </div>
 
         <div class="w-full bg-white shadow flex flex-col my-4 p-6">
-            <p class="text-xl font-semibold pb-5">Instagram</p>
-            <div class="grid grid-cols-3 gap-3">
-                <img class="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/150x150?sig=1">
-                <img class="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/150x150?sig=2">
-                <img class="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/150x150?sig=3">
-                <img class="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/150x150?sig=4">
-                <img class="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/150x150?sig=5">
-                <img class="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/150x150?sig=6">
-                <img class="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/150x150?sig=7">
-                <img class="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/150x150?sig=8">
-                <img class="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/150x150?sig=9">
+            <p class="text-xl font-semibold pb-5">@lang('admin.users')</p>
+            <div class="grid grid-cols-5 gap-5">
+                @foreach($usersWithBook as $user)
+                    <img class="hover:opacity-75" src="{{QData::getImageFromUser($user)}}"
+                         title="{{__('user_with_book',['user'=>$user->name,'countBook'=>$user->books_created_count])}}">
+                @endforeach
             </div>
             <a href="#" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-6">
                 <i class="fab fa-instagram mr-2"></i> Follow @dgrzyb

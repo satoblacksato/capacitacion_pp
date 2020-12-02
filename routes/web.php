@@ -34,3 +34,5 @@ Route::get('/view-book/{book}',
     [\App\Http\Controllers\ComunController::class,'viewBook'])
     ->name('view_book');
 
+
+Route::get('/get-books/{category}' ,[\App\Http\Controllers\ComunController::class,'getBooksByCategory'])->name('get_books');

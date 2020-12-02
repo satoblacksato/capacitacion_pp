@@ -7,6 +7,7 @@ use QData;
 class MasterLayout extends Component
 {
     public $categories;
+    public $usersWithBook;
     /**
      * Create a new component instance.
      *
@@ -30,5 +31,6 @@ class MasterLayout extends Component
 
     private function load(){
         $this->categories=QData::getCategoriesForRef();
+        $this->usersWithBook=QData::getUsersWithBook();
     }
 }

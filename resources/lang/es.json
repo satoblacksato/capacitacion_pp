@@ -34,5 +34,7 @@
     "site_description": "Sitio desarrollado en laravel con realtime",
     "by": "Publicado por ",
     "publish_on": "Fecha de publicación :date",
-    "continue_reading": "Continuar Leyendo"
+    "continue_reading": "Continuar Leyendo",
+    "user_with_book": "El usuario :user publicó :countBook libro(s)",
+    "site_about": "Sitio de publicación y comentarios sobre libros varios"
 }
