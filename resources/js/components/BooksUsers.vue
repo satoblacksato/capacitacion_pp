@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1 class="font-semibold text-xl text-gray-800 leading-tight text-center">
-            {{ category_name }}
+            {{ user_name }}
         </h1>
         <br/>
         <p class="text-lg text-gray-600">
@@ -43,8 +43,8 @@
 </template>
 <script>
 export default {
-    name: 'BooksCategory',
-    props: ['category_name','route'],
+    name: 'BooksUsers',
+    props: ['user_name','route'],
     data(){
         return{
             books:[],

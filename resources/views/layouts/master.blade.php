@@ -102,7 +102,6 @@
 
 
 <div class="container mx-auto flex flex-wrap py-6">
-
     <!-- Posts Section -->
     <section class="w-full md:w-2/3 flex flex-col items-center px-3" id="app">
         @yield('content')
@@ -123,8 +122,10 @@
             <p class="text-xl font-semibold pb-5">@lang('admin.users')</p>
             <div class="grid grid-cols-5 gap-5">
                 @foreach($usersWithBook as $user)
-                    <img class="hover:opacity-75" src="{{QData::getImageFromUser($user)}}"
+                    <a href="{{route('get_books_users',$user->slug)}}">
+                        <img class="hover:opacity-75" src="{{QData::getImageFromUser($user)}}"
                          title="{{__('user_with_book',['user'=>$user->name,'countBook'=>$user->books_created_count])}}">
+                    </a>
                 @endforeach
             </div>
             <a href="#" class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-6">

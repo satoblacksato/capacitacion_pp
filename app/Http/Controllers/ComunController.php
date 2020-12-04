@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 
 use Illuminate\Http\Request;
-use App\Models\{Category,Book};
+use App\Models\{Category, Book, User};
 
 class ComunController extends Controller
 {
@@ -25,14 +25,9 @@ class ComunController extends Controller
     }
 
     public function getBooksByCategory(Category $category){
-        if(request()->ajax()){
-            //request()->method()
-            return response()->json(
-                [
-                    'books'=>$category->books()->with('userCreated')->paginate()
-                ]
-            );
-        }
-        return view('blank',compact('category'));
+        return view('blank',compact('category'))->with(['identificator'=>'C']);
+    }
+    public function getBooksByUser(User $user){
+        return view('blank',compact('user'))->with(['identificator'=>'U']);
     }
 }

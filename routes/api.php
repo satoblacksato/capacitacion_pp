@@ -17,3 +17,12 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+Route::get('/books-by-category/{category}',[
+    \App\Http\Controllers\ApiController::class,'booksByCategory'
+])->name('books_by_category');
+
+Route::get('/books-by-user/{user}',[
+    \App\Http\Controllers\ApiController::class,'booksByUser'
+])->name('books_by_user');
