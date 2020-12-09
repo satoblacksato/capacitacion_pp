@@ -30,4 +30,14 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'github' =>[
+        'client_id'=>env('GIT_ID'),
+        'client_secret'=>env('GIT_SECRET'),
+        'redirect'=>env('GIT_REDIRECT'),
+    ],
+    'linkedin' =>[
+        'client_id'=>env('LINK_ID'),
+        'client_secret'=>env('LINK_SECRET'),
+        'redirect'=>env('LINK_REDIRECT'),
+    ]
 ];

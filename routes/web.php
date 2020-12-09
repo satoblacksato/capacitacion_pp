@@ -37,3 +37,14 @@ Route::get('/view-book/{book}',
 
 Route::get('/get-books-c/{category}' ,[\App\Http\Controllers\ComunController::class,'getBooksByCategory'])->name('get_books');
 Route::get('/get-books-a/{user}' ,[\App\Http\Controllers\ComunController::class,'getBooksByUser'])->name('get_books_users');
+
+Route::get('change-lang/{lang}',[\App\Http\Controllers\ComunController::class,'changeLang'])
+    ->where(['lang'=>'es|en'])
+    ->name('change_lang');
+
+
+
+Route::get('/auth/redirect/{provider}',[\App\Http\Controllers\AuthSocialController::class,'redirect'])
+->name('login_social');
+
+Route::get('auth/{provider}/callback',[\App\Http\Controllers\AuthSocialController::class,'callback']);

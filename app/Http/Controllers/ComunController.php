@@ -30,4 +30,9 @@ class ComunController extends Controller
     public function getBooksByUser(User $user){
         return view('blank',compact('user'))->with(['identificator'=>'U']);
     }
+
+    public function changeLang($lang){
+        session()->put('lang',$lang);
+        return redirect()->back();
+    }
 }

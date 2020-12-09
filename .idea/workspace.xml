@@ -20,19 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83fe1432-0f12-4062-b4ee-2f3a30a2e751" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/BooksUsers.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/capacitacion_pp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capacitacion_pp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ComunController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComunController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/BooksCategory.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/BooksCategory.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blank.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blank.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/info-book.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/info-book.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jetstream.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/jetstream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,6 +192,8 @@
       <path value="$PROJECT_DIR$/vendor/predis/predis" />
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
       <path value="$PROJECT_DIR$/vendor/laravolt/avatar" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth1-client" />
+      <path value="$PROJECT_DIR$/vendor/laravel/socialite" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jvzFV4m9zqYIcmMoel4Fr8i1ba" />
@@ -208,7 +211,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/public/css" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -262,6 +265,8 @@
       <workItem from="1606771929716" duration="10121000" />
       <workItem from="1606944924166" duration="7436000" />
       <workItem from="1607118164395" duration="6640000" />
+      <workItem from="1607377314229" duration="8746000" />
+      <workItem from="1607395455121" duration="499000" />
     </task>
     <servers />
   </component>

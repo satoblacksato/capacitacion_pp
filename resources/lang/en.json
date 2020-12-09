@@ -1,3 +1,13 @@
 {
-    "Crear/Editar Libro": "Create/Edit Book"
+    "Crear/Editar Libro": "Create/Edit Book",
+    "spanish": "Spanish",
+    "english": "English",
+    "site_title": "My library",
+    "site_description": "site development in laravel wiht realtime",
+    "by": "Published by ",
+    "publish_on": "date of publish :date",
+    "continue_reading": "Continue Reading",
+    "user_with_book": "The user :user published :countBook books(s)",
+    "site_about": "site of books and comments about technology",
+    "route_category_books": "/get-books-c/{category}"
 }
