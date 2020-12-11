@@ -9,5 +9,9 @@
     "continue_reading": "Continue Reading",
     "user_with_book": "The user :user published :countBook books(s)",
     "site_about": "site of books and comments about technology",
-    "route_category_books": "/get-books-c/{category}"
+    "route_category_books": "/get-books-c/{category}",
+    "contact_us": "Contact Us",
+    "terms_conditions": "Terms & Conditions",
+    "policy_privacy": "Policies",
+    "about_us": "About us"
 }

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\{Category, Book, User};
+use App\Notifications\ContactUs;
 
 class ComunController extends Controller
 {
@@ -34,5 +35,16 @@ class ComunController extends Controller
     public function changeLang($lang){
         session()->put('lang',$lang);
         return redirect()->back();
+    }
+
+    public function sendEmail(Request $request){
+        $this->validate($request,[
+           'name'=>'required',
+           'email'=>'required|email',
+           'description'=>'required|max:200',
+        ]);
+        optional(User::find(13))->notify(new ContactUs($request->only('name','email','description')));
+        return redirect()->to('/');
+
     }
 }

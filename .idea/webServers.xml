@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1d7593eb-8173-4d98-8bed-66e4c83821bd" name="AJE">
+        <fileTransfer rootFolder="/var/www/app/ajecore" accessType="SFTP" host="172.41.0.143" port="22" sshConfigId="38f2b7e1-268d-4646-9cbf-681241aa2f35" sshConfig="tech.jmaldonado@172.41.0.143:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

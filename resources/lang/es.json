@@ -39,5 +39,10 @@
     "site_about": "Sitio de publicación y comentarios sobre libros varios",
     "spanish": "Español",
     "english": "Inglés",
-    "route_category_books": "/libros-por-categoria/{category}"
+    "route_category_books": "/libros-por-categoria/{category}",
+    "contact_us": "Cantactame",
+    "terms_conditions": "Términos y Condiciones",
+    "policy_privacy": "Políticas de PRivacidad",
+    "about_us": "Acerca de",
+    "send": "Enviar"
 }

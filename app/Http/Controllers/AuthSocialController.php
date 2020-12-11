@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use GuzzleHttp\Exception\ClientException;
 use Illuminate\Http\Request;
 use Socialite;
 class AuthSocialController extends Controller
@@ -12,10 +13,15 @@ class AuthSocialController extends Controller
     }
 
     public function callback($provider){
-        $info=Socialite::driver($provider)->stateless()->user();
-        $user=$this->createUser($info,$provider);
-        auth()->login($user);
-        return redirect()->to('/');
+        try {
+            $info=Socialite::driver($provider)->stateless()->user();
+            $user=$this->createUser($info,$provider);
+            auth()->login($user);
+            return redirect()->to('/');
+        }catch (ClientException $ex){
+            return redirect()->route('login');
+        }
+
     }
 
     public function createUser($info,$provider){
