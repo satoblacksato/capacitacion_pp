@@ -29,6 +29,9 @@
     <script src="{{asset('js/global_custom.js')}}" defer></script>
     @component('_partials._events-realtime')
     @endcomponent
+
+    @component('_partials._chat')
+    @endcomponent
 </head>
 <body class="bg-white font-family-karla">
 

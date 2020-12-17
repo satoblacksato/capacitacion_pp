@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 
 use Illuminate\Http\Request;
-use App\Models\{Category, Book, User};
+use App\Models\{Category, Book, User, UserBookSubscribe};
 use App\Notifications\ContactUs;
-
+use PDF;
 class ComunController extends Controller
 {
     public function createBook(Category $category){
@@ -46,5 +46,34 @@ class ComunController extends Controller
         optional(User::find(13))->notify(new ContactUs($request->only('name','email','description')));
         return redirect()->to('/');
 
+    }
+
+    public function subscribe(Book $book, Request $request){
+        if(!$request->hasValidSignature()){
+            abort(403);
+        }
+
+        if(UserBookSubscribe::where('user_id','=',auth()->user()->id)
+      ->where(  'book_id','=',$book->id)->count()==0
+        ){
+            $subscribe=new UserBookSubscribe();
+            $subscribe->user_id=auth()->user()->id;
+            $subscribe->book_id=$book->id;
+            $subscribe->save();
+        }
+
+        return redirect()->to('/');
+
+    }
+
+    public function pdf($num,Request  $request){
+       // $users= \App\Models\User::where('id','=',$num)->get();
+        $users= \App\Models\User::get();
+
+       // $users = DB::select('call spp ? , ?',[$request->get('nombre'),'r']);
+
+        $pdf=PDF::loadView('pdf',['title'=>'PDF BUILD','users'=>$users]);
+        return $pdf->inline();
+        // return $pdf->download('valor.pdf');
     }
 }

@@ -9,6 +9,7 @@ use DB;
 use Exception;
 use App\Jobs\SendTotalsAndNewBook;
 use Cache;
+use URL;
 class BookComponent extends Component
 {
     use WithFileUploads;
@@ -46,7 +47,7 @@ class BookComponent extends Component
           [
               'name'=>'required|max:30',
               'description'=>'required|max:100',
-              'covers.*'=>'required|image|max:1024'
+              'covers.*'=>'required|image'//|max:1024'
           ]
         );
 
@@ -54,6 +55,11 @@ class BookComponent extends Component
             DB::beginTransaction();
                 $this->book->fill(['name'=>$this->name,'description'=>$this->description]);
                 $this->category->books()->save($this->book);
+
+                if($this->action=='C') {
+                    $linkS = $this->getUrlSigned($this->book);
+                }
+
                 $photos=[];
                 foreach ($this->covers as $photo){
                     $photos[]=new Photo(['name'=>$photo]);
@@ -69,11 +75,27 @@ class BookComponent extends Component
                 }
 
 
-                $this->dispatchBrowserEvent('msgBook',['msg'=>__('admin.book_saved')]);
+                $this->dispatchBrowserEvent('msgBook',['msg'=>
+                    __('admin.book_saved').' link: '.$linkS
+                ]);
         }catch (Exception $ex){
             DB::rollBack();
             throw $ex;
         }
 
+    }
+
+
+    private function getUrlSigned($book){
+        $book->link_subscribe=
+            URL::temporarySignedRoute(
+                'link_subscribe',
+                      now()->addMinutes(20),
+                [
+                    'book'=>$book->slug
+                ]
+        );
+        $book->save();
+        return $book->link_subscribe;
     }
 }

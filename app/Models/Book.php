@@ -20,11 +20,17 @@ class Book extends Model
     ];
 
     public function getDateVueAttribute(){
-        return $this->created_at->diffForHumans();
+        if($this->created_at!=null){
+            return $this->created_at->diffForHumans();
+        }
+        return '';
     }
 
     public function getRouteViewAttribute(){
-        return route('view_book',$this->slug);
+        if($this->slug!=null){
+            return route('view_book',$this->slug);
+        }
+        return '#';
     }
 
 

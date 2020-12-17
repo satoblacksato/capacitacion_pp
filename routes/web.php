@@ -22,6 +22,11 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 })->name('dashboard');
 
+Route::middleware(['auth:sanctum', 'verified'])->get('/subscribe/{book}',
+    [\App\Http\Controllers\ComunController::class,'subscribe'])
+    ->name('link_subscribe');
+
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/create-book/{category}',
     [\App\Http\Controllers\ComunController::class,'createBook'])
     ->name('create_book');
@@ -73,5 +78,9 @@ Route::get('/asigna-role',function (){
 
 
 });
+
+
+Route::get('/pdf/{num}',[\App\Http\Controllers\ComunController::class,'pdf']);
+
 
 

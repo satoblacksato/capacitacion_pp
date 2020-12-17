@@ -20,21 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83fe1432-0f12-4062-b4ee-2f3a30a2e751" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/401.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/403.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/404.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/static/about_us.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/static/contact_us.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/static/policy_privacy.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/static/terms_conditions.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/_partials/_chat.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pdf.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/capacitacion_pp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capacitacion_pp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthSocialController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthSocialController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ComunController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComunController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/BookComponent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/BookComponent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -196,6 +191,10 @@
       <path value="$PROJECT_DIR$/vendor/laravolt/avatar" />
       <path value="$PROJECT_DIR$/vendor/league/oauth1-client" />
       <path value="$PROJECT_DIR$/vendor/laravel/socialite" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-snappy" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy" />
+      <path value="$PROJECT_DIR$/vendor/h4cc/wkhtmltopdf-amd64" />
+      <path value="$PROJECT_DIR$/vendor/h4cc/wkhtmltoimage-amd64" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jvzFV4m9zqYIcmMoel4Fr8i1ba" />
@@ -205,6 +204,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -270,7 +270,15 @@
       <workItem from="1607118164395" duration="6640000" />
       <workItem from="1607377314229" duration="8746000" />
       <workItem from="1607395455121" duration="13108000" />
-      <workItem from="1607723213954" duration="5778000" />
+      <workItem from="1607723213954" duration="8931000" />
+      <workItem from="1607751064154" duration="1711000" />
+      <workItem from="1607981963989" duration="2359000" />
+      <workItem from="1607991513280" duration="438000" />
+      <workItem from="1607993632278" duration="557000" />
+      <workItem from="1607999548340" duration="224000" />
+      <workItem from="1608004755535" duration="512000" />
+      <workItem from="1608046295417" duration="1763000" />
+      <workItem from="1608078262385" duration="8543000" />
     </task>
     <servers />
   </component>
@@ -290,19 +298,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="72" key="#Deployment" timestamp="1607630270454">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="95" key="#Deployment" timestamp="1608054881489">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="320" y="72" key="#Deployment/0.0.1440.900@0.0.1440.900" timestamp="1607630270454" />
     <state x="320" y="87" key="#Deployment/0.23.1440.797@0.23.1440.797" timestamp="1605818211785" />
-    <state x="0" y="0" width="1440" height="900" key="#SSH_Configurations" timestamp="1607630267873">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="95" key="#Deployment/0.25.1440.875@0.25.1440.875" timestamp="1608054881489" />
+    <state x="0" y="25" width="1440" height="875" key="#SSH_Configurations" timestamp="1608054879669">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="0" y="0" width="1440" height="900" key="#SSH_Configurations/0.0.1440.900@0.0.1440.900" timestamp="1607630267873" />
-    <state x="418" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606086382216">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="0" y="25" width="1440" height="875" key="#SSH_Configurations/0.25.1440.875@0.25.1440.875" timestamp="1608054879669" />
+    <state x="418" y="252" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608163713117">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="418" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.797@0.23.1440.797" timestamp="1606086382216" />
+    <state x="418" y="252" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.875@0.25.1440.875" timestamp="1608163713117" />
+    <state x="473" y="232" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608156845722">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="473" y="232" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1440.875@0.25.1440.875" timestamp="1608156845722" />
     <state x="458" y="183" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604960734182">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -315,14 +330,14 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="481" y="154" key="NewPhpClassDialog/0.23.1440.797@0.23.1440.797" timestamp="1606064394064" />
-    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1607726556655">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="539" y="395" key="NewPhpFileDialog" timestamp="1608161862626">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1607726556655" />
     <state x="539" y="360" key="NewPhpFileDialog/0.23.1440.797@0.23.1440.797" timestamp="1606059340465" />
     <state x="539" y="360" key="NewPhpFileDialog/0.23.1440.798@0.23.1440.798" timestamp="1604702792895" />
     <state x="539" y="361" key="NewPhpFileDialog/0.23.1440.801@0.23.1440.801" timestamp="1604704413571" />
-    <state x="539" y="395" key="NewPhpFileDialog/0.25.1440.875@0.25.1440.875" timestamp="1607554736570" />
+    <state x="539" y="395" key="NewPhpFileDialog/0.25.1440.875@0.25.1440.875" timestamp="1608161862626" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1607620870820">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -343,10 +358,11 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="100" y="123" width="1240" height="597" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.797@0.23.1440.797" timestamp="1605365425990" />
-    <state x="421" y="205" width="597" height="490" key="find.popup" timestamp="1607125390772">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="421" y="224" width="597" height="490" key="find.popup" timestamp="1608158572433">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="421" y="205" width="597" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1607125390772" />
+    <state x="421" y="224" width="597" height="490" key="find.popup/0.25.1440.875@0.25.1440.875" timestamp="1608158572433" />
     <state x="0" y="0" width="1440" height="900" key="ftp.server.browser" timestamp="1607620252571">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
