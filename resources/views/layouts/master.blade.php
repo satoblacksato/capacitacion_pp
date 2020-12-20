@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <title>{{config('app.name')}}</title>
     <meta name="author" content="">
     <meta name="description" content="">
@@ -26,12 +28,18 @@
     <script src="{{asset('js/app.js')}}" defer></script>
 
     <link rel="stylesheet" href="{{ asset('css/global_custom.css') }}">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.5/css/buttons.dataTables.min.css">
+
     <script src="{{asset('js/global_custom.js')}}" defer></script>
     @component('_partials._events-realtime')
     @endcomponent
 
     @component('_partials._chat')
     @endcomponent
+
+    @stack('script-custom')
+
 </head>
 <body class="bg-white font-family-karla">
 

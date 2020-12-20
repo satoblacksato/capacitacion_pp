@@ -84,3 +84,6 @@ Route::get('/pdf/{num}',[\App\Http\Controllers\ComunController::class,'pdf']);
 
 
 
+Route::any('/users',[\App\Http\Controllers\ComunController::class,'users'])->middleware('auth:sanctum')->name('getUsers');
+
+

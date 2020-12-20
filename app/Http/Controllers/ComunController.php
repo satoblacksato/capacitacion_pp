@@ -76,4 +76,19 @@ class ComunController extends Controller
         return $pdf->inline();
         // return $pdf->download('valor.pdf');
     }
+
+
+    public function users(Request $request){
+            if($request->ajax() && $request->method()=='POST'){
+                return datatables()
+                        ->of(User::query())
+                        ->addColumn('profile_photo','users_col')
+                        ->editColumn('created_at', function(User $user) {
+                            return $user->created_at->diffForHumans();
+                        })
+                        ->rawColumns(['profile_photo'])
+                        ->make(true);
+            }
+            return view('users',['users'=>User::query()->get()]);
+    }
 }

@@ -44,7 +44,7 @@ class SendEmailToAdmin extends Notification
      */
     public function toMail($notifiable)
     {
-        return (new MailMessage)
+        return (new MailMessage())
                     ->level('info')
                     ->line('Se ha creado un nuevo libro en la categoría: '.$this->category)
                     ->line('Total de libros en la categoría: '.$this->countBook)

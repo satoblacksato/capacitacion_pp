@@ -26,7 +26,7 @@ class CategoryRequest extends FormRequest
     {
         return [
             'name'=>'required|min:7|max:40',
-            'description'=>['required','min:10','max:200',new PhrasesBlock],
+            'description'=>['required','min:10','max:200',new PhrasesBlock()],
             'photo'=>'sometimes|image|dimensions:min_width=100,min_height=200|max:3000'
         ];
     }

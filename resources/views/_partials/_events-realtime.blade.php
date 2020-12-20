@@ -5,7 +5,7 @@
         Pusher.logToConsole = true;
     @endif
 
-    alertify.set({ delay: 15000 });
+  //  alertify.set({ delay: 15000 });
 
     var pusher = new Pusher('{{config('broadcasting.connections.pusher.key')}}', {
         cluster: '{{config('broadcasting.connections.pusher.options.cluster')}}'

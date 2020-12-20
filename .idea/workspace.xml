@@ -20,16 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83fe1432-0f12-4062-b4ee-2f3a30a2e751" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/_partials/_chat.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pdf.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users_col.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/capacitacion_pp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capacitacion_pp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ComunController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComunController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/BookComponent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/BookComponent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Notifications/ContactUs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Notifications/ContactUs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Notifications/SendEmailToAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Notifications/SendEmailToAdmin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_partials/_events-realtime.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_partials/_events-realtime.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -195,6 +198,30 @@
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy" />
       <path value="$PROJECT_DIR$/vendor/h4cc/wkhtmltopdf-amd64" />
       <path value="$PROJECT_DIR$/vendor/h4cc/wkhtmltoimage-amd64" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/php-cs-fixer/diff" />
+      <path value="$PROJECT_DIR$/vendor/slevomat/coding-standard" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$PROJECT_DIR$/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/finder-facade" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/phpinsights" />
+      <path value="$PROJECT_DIR$/vendor/phploc/phploc" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/vendor/theseer/fdomdocument" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/league/container" />
+      <path value="$PROJECT_DIR$/vendor/object-calisthenics/phpcs-calisthenics-rules" />
+      <path value="$PROJECT_DIR$/vendor/rachidlaasri/laravel-installer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jvzFV4m9zqYIcmMoel4Fr8i1ba" />
@@ -278,7 +305,13 @@
       <workItem from="1607999548340" duration="224000" />
       <workItem from="1608004755535" duration="512000" />
       <workItem from="1608046295417" duration="1763000" />
-      <workItem from="1608078262385" duration="8543000" />
+      <workItem from="1608078262385" duration="9674000" />
+      <workItem from="1608179006379" duration="9059000" />
+      <workItem from="1608189935531" duration="180000" />
+      <workItem from="1608217319766" duration="591000" />
+      <workItem from="1608262966452" duration="588000" />
+      <workItem from="1608308076496" duration="6735000" />
+      <workItem from="1608416758090" duration="24000" />
     </task>
     <servers />
   </component>
@@ -298,12 +331,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="95" key="#Deployment" timestamp="1608054881489">
+    <state x="320" y="95" key="#Deployment" timestamp="1608189983165">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="320" y="72" key="#Deployment/0.0.1440.900@0.0.1440.900" timestamp="1607630270454" />
     <state x="320" y="87" key="#Deployment/0.23.1440.797@0.23.1440.797" timestamp="1605818211785" />
-    <state x="320" y="95" key="#Deployment/0.25.1440.875@0.25.1440.875" timestamp="1608054881489" />
+    <state x="320" y="95" key="#Deployment/0.25.1440.875@0.25.1440.875" timestamp="1608189983165" />
     <state x="0" y="25" width="1440" height="875" key="#SSH_Configurations" timestamp="1608054879669">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -330,14 +363,14 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="481" y="154" key="NewPhpClassDialog/0.23.1440.797@0.23.1440.797" timestamp="1606064394064" />
-    <state x="539" y="395" key="NewPhpFileDialog" timestamp="1608161862626">
+    <state x="539" y="395" key="NewPhpFileDialog" timestamp="1608332851877">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1607726556655" />
     <state x="539" y="360" key="NewPhpFileDialog/0.23.1440.797@0.23.1440.797" timestamp="1606059340465" />
     <state x="539" y="360" key="NewPhpFileDialog/0.23.1440.798@0.23.1440.798" timestamp="1604702792895" />
     <state x="539" y="361" key="NewPhpFileDialog/0.23.1440.801@0.23.1440.801" timestamp="1604704413571" />
-    <state x="539" y="395" key="NewPhpFileDialog/0.25.1440.875@0.25.1440.875" timestamp="1608161862626" />
+    <state x="539" y="395" key="NewPhpFileDialog/0.25.1440.875@0.25.1440.875" timestamp="1608332851877" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1607620870820">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -350,10 +383,11 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="556" y="327" width="441" height="188" key="WebDeployment.AddServerDialog.v.1/0.23.1440.797@0.23.1440.797" timestamp="1605818169240" />
-    <state x="507" y="206" key="chooseDestDirectoryDialog" timestamp="1605739882959">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="507" y="226" key="chooseDestDirectoryDialog" timestamp="1608329860539">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="507" y="206" key="chooseDestDirectoryDialog/0.23.1440.797@0.23.1440.797" timestamp="1605739882959" />
+    <state x="507" y="226" key="chooseDestDirectoryDialog/0.25.1440.875@0.25.1440.875" timestamp="1608329860539" />
     <state x="100" y="123" width="1240" height="597" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605365425990">
       <screen x="0" y="23" width="1440" height="797" />
     </state>

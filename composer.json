@@ -28,14 +28,17 @@
         "livewire/livewire": "^2.0",
         "predis/predis": "^1.1",
         "pusher/pusher-php-server": "^4.1",
+        "rachidlaasri/laravel-installer": "^4.1",
         "silber/bouncer": "v1.0.0-rc.9",
-        "styde/html": "~1.9"
+        "styde/html": "~1.9",
+        "yajra/laravel-datatables-oracle": "~9.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
+        "nunomaduro/phpinsights": "^1.14",
         "phpunit/phpunit": "^9.3.3"
     },
     "config": {
