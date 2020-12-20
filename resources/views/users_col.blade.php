@@ -1,1 +1,1 @@
-<img src="{{$profile_photo_url}}">
+<img src="{{Avatar::create($name)->toBase64()}}" style="width: 40px">
