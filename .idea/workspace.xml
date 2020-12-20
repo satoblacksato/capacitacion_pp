@@ -20,21 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83fe1432-0f12-4062-b4ee-2f3a30a2e751" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/users.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users_col.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/capacitacion_pp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capacitacion_pp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ComunController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComunController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Notifications/ContactUs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Notifications/ContactUs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Notifications/SendEmailToAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Notifications/SendEmailToAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_partials/_events-realtime.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_partials/_events-realtime.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,6 +298,8 @@
       <workItem from="1608262966452" duration="588000" />
       <workItem from="1608308076496" duration="6735000" />
       <workItem from="1608416758090" duration="24000" />
+      <workItem from="1608471052431" duration="36000" />
+      <workItem from="1608475446486" duration="614000" />
     </task>
     <servers />
   </component>
